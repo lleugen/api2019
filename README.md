@@ -7,7 +7,7 @@ These are the commands the system should implement:
 * addrel "origin" "destination" "type" : add relationship "type" between "origin" and "destination", if already existing or if one of the two entities is not being monitored by the system, do nothing
 * delent "name" : stop monitoring entity "name", also remove all relationships that used to connect to "name"
 * delrel "origin" "destination" "type" : remove relationship "type" between "origin" and "destination"
-* report : for each type of relationship monitored by the system, print the name of the entity receiving most instanced of that relationship type and the number of instances, in case of ties, print all names in alphabetical order
+* report : for each type of relationship monitored by the system, print the name of the entity receiving most instances of that relationship type and the number of instances, in case of ties, print all names in alphabetical order
 
 in.txt and out.txt are example input and outputs.
 
