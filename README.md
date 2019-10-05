@@ -11,6 +11,15 @@ These are the commands the system should implement:
 
 in.txt and out.txt are example input and outputs.
 
+To run the program, compile with
+'''shell
+gcc -Wall -o compiled_program source.c
+'''
+and run with
+'''shell
+./compiled_program
+'''
+
 ### Solution comments
 I used a red black binary tree to store all the monitored entities, each entity also has two linked lists storing all outgoing and incomming relationships. There is a list storing all information necessary to produce a report which is updated progressively with each command.
 
