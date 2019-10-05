@@ -12,8 +12,10 @@ These are the commands the system should implement:
 in.txt and out.txt are example input and outputs.
 
 To run the program, compile with
+
     gcc -Wall -o compiled_program source.c
 and run with
+
     ./compiled_program
 
 ### Solution comments
